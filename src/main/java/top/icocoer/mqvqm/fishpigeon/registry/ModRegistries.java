@@ -12,7 +12,6 @@ public final class ModRegistries {
     /**
      * 统一将各类 DeferredRegister 挂载到模组事件总线。
      */
-    @SuppressWarnings("null")
     public static void register(IEventBus modEventBus) {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);

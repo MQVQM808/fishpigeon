@@ -18,7 +18,6 @@ public final class ModMenuTypes {
     private ModMenuTypes() {}
 
     /** 挂载到模组事件总线。 */
-    @SuppressWarnings("null")
     public static void register(IEventBus modEventBus) {
         MENU_TYPES.register(modEventBus);
     }

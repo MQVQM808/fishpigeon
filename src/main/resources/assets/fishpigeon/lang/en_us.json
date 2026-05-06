@@ -1,6 +1,8 @@
 {
   "itemGroup.fishpigeon.main": "fishpigeon",
-  "block.fishpigeon.example_block": "Example Block",
+  "block.fishpigeon.pigeon_stone": "Pigeon Stone",
+  "block.fishpigeon.pigeon_dirt": "Pigeon Dirt",
+  "block.fishpigeon.grass_pigeon_dirt": "Grass Pigeon Dirt",
   "item.fishpigeon.minced_pigeon_fish_maw_soup": "Minced Pigeon & Fish Maw Soup",
 
   "entity.fishpigeon.pigeon": "Pigeon",

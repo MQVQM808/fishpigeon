@@ -18,7 +18,6 @@ public final class ModBlockEntities {
     private ModBlockEntities() {}
 
     /** 挂载到模组事件总线。 */
-    @SuppressWarnings("null")
     public static void register(IEventBus modEventBus) {
         BLOCK_ENTITIES.register(modEventBus);
     }

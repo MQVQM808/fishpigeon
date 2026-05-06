@@ -1,0 +1,120 @@
+{
+  "type": "fishpigeon:fish_warudo",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "minecraft:ocean",
+          "parameters": {
+            "temperature": -0.1,
+            "humidity": 0.0,
+            "continentalness": 0.05,
+            "erosion": 0.2,
+            "weirdness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:deep_ocean",
+          "parameters": {
+            "temperature": -0.1,
+            "humidity": 0.0,
+            "continentalness": -0.35,
+            "erosion": -0.1,
+            "weirdness": 0.25,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:cold_ocean",
+          "parameters": {
+            "temperature": -0.45,
+            "humidity": 0.1,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "weirdness": -0.35,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:deep_cold_ocean",
+          "parameters": {
+            "temperature": -0.55,
+            "humidity": 0.1,
+            "continentalness": -0.4,
+            "erosion": -0.2,
+            "weirdness": -0.55,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:lukewarm_ocean",
+          "parameters": {
+            "temperature": 0.45,
+            "humidity": -0.2,
+            "continentalness": 0.1,
+            "erosion": 0.25,
+            "weirdness": 0.45,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:deep_lukewarm_ocean",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": -0.25,
+            "continentalness": -0.45,
+            "erosion": -0.25,
+            "weirdness": 0.6,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:warm_ocean",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": -0.1,
+            "continentalness": 0.0,
+            "erosion": 0.15,
+            "weirdness": 0.75,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:frozen_ocean",
+          "parameters": {
+            "temperature": -0.8,
+            "humidity": 0.2,
+            "continentalness": 0.0,
+            "erosion": 0.1,
+            "weirdness": -0.8,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:deep_frozen_ocean",
+          "parameters": {
+            "temperature": -0.9,
+            "humidity": 0.2,
+            "continentalness": -0.5,
+            "erosion": -0.35,
+            "weirdness": -0.95,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        }
+      ]
+    },
+    "settings": "fishpigeon:fish_warudo"
+  }
+}

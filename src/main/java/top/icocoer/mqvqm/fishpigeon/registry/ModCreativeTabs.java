@@ -24,6 +24,9 @@ public final class ModCreativeTabs {
                     .withTabsBefore(CreativeModeTabs.COMBAT)
                     .icon(() -> ModItems.MINCED_PIGEON_FISH_MAW_SOUP.get().getDefaultInstance())
                     .displayItems((parameters, output) -> {
+                        output.accept(ModBlocks.GRASS_PIGEON_DIRT.get());
+                        output.accept(ModBlocks.PIGEON_DIRT.get());
+                        output.accept(ModBlocks.PIGEON_STONE.get());
                         output.accept(ModItems.MINCED_PIGEON_FISH_MAW_SOUP.get());
                     })
                     .build());

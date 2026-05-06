@@ -23,7 +23,6 @@ public final class ModRecipes {
     private ModRecipes() {}
 
     /** 挂载到模组事件总线。 */
-    @SuppressWarnings("null")
     public static void register(IEventBus modEventBus) {
         RECIPE_TYPES.register(modEventBus);
         RECIPE_SERIALIZERS.register(modEventBus);

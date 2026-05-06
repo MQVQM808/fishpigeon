@@ -1,6 +1,5 @@
 package top.icocoer.mqvqm.fishpigeon.registry;
 
-import net.minecraft.core.component.DataComponentType;
 import net.minecraft.core.registries.Registries;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -18,12 +17,7 @@ public final class ModDataComponents {
     private ModDataComponents() {}
 
     /** 挂载到模组事件总线。 */
-    @SuppressWarnings("null")
     public static void register(IEventBus modEventBus) {
         DATA_COMPONENTS.register(modEventBus);
     }
-
-    /** 仅用于保留泛型引用，避免被误删。 */
-    @SuppressWarnings("unused")
-    private static <T> DataComponentType<T> _typeRef() { return null; }
 }

@@ -1,6 +1,8 @@
 {
   "itemGroup.fishpigeon.main": "鸽子鱼",
-  "block.fishpigeon.example_block": "示例方块",
+  "block.fishpigeon.pigeon_stone": "鸽石",
+  "block.fishpigeon.pigeon_dirt": "鸽土",
+  "block.fishpigeon.grass_pigeon_dirt": "草鸽土",
   "item.fishpigeon.minced_pigeon_fish_maw_soup": "鸽茸鱼肚羹",
 
   "entity.fishpigeon.pigeon": "鸽子",

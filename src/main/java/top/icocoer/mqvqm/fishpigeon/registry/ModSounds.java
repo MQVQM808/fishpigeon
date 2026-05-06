@@ -28,7 +28,6 @@ public final class ModSounds {
     }
 
     /** 挂载到模组事件总线。 */
-    @SuppressWarnings("null")
     public static void register(IEventBus modEventBus) {
         SOUND_EVENTS.register(modEventBus);
     }

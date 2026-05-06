@@ -3,9 +3,7 @@ package top.icocoer.mqvqm.fishpigeon.registry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.npc.VillagerType;
-import net.minecraft.world.entity.npc.VillagerTrades.ItemListing;
 import net.neoforged.bus.api.IEventBus;
-import net.neoforged.neoforge.common.BasicItemListing;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import top.icocoer.mqvqm.fishpigeon.Fishpigeon;
 
@@ -25,7 +23,6 @@ public final class ModVillagers {
     private ModVillagers() {}
 
     /** 挂载到模组事件总线。 */
-    @SuppressWarnings("null")
     public static void register(IEventBus modEventBus) {
         PROFESSIONS.register(modEventBus);
         VILLAGER_TYPES.register(modEventBus);

@@ -18,7 +18,6 @@ public final class ModEffects {
     private ModEffects() {}
 
     /** 挂载到模组事件总线。 */
-    @SuppressWarnings("null")
     public static void register(IEventBus modEventBus) {
         MOB_EFFECTS.register(modEventBus);
     }

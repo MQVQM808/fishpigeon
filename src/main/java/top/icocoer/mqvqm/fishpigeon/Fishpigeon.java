@@ -16,6 +16,7 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import org.slf4j.Logger;
+import top.icocoer.mqvqm.fishpigeon.command.ModCommands;
 import top.icocoer.mqvqm.fishpigeon.registry.ModRegistries;
 
 /**
@@ -36,6 +37,7 @@ public class Fishpigeon {
         modEventBus.addListener(this::commonSetup);
         ModRegistries.register(modEventBus);
         NeoForge.EVENT_BUS.register(this);
+        NeoForge.EVENT_BUS.addListener(ModCommands::onRegisterCommands);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 

@@ -18,7 +18,6 @@ public final class ModPotions {
     private ModPotions() {}
 
     /** 挂载到模组事件总线。 */
-    @SuppressWarnings("null")
     public static void register(IEventBus modEventBus) {
         POTIONS.register(modEventBus);
     }

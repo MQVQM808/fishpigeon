@@ -18,7 +18,6 @@ public final class ModAttributes {
     private ModAttributes() {}
 
     /** 挂载到模组事件总线。 */
-    @SuppressWarnings("null")
     public static void register(IEventBus modEventBus) {
         ATTRIBUTES.register(modEventBus);
     }

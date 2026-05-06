@@ -18,7 +18,7 @@ import top.icocoer.mqvqm.fishpigeon.Fishpigeon;
 public final class ModEnchantments {
 
     private ModEnchantments() {}
-    @SuppressWarnings("null")
+
     public static ResourceKey<Enchantment> key(String name) {
         return ResourceKey.create(
                 net.minecraft.core.registries.Registries.ENCHANTMENT,

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "snowy=false": {
+      "model": "fishpigeon:block/grass_pigeon_dirt"
+    },
+    "snowy=true": {
+      "model": "fishpigeon:block/grass_pigeon_dirt_snowy"
+    }
+  }
+}
