@@ -147,33 +147,13 @@
                 "surface_type": "floor"
               },
               "then_run": {
-                "type": "minecraft:sequence",
-                "sequence": [
-                  {
-                    "type": "minecraft:condition",
-                    "if_true": {
-                      "type": "minecraft:water",
-                      "add_stone_depth": false,
-                      "offset": 0,
-                      "surface_depth_multiplier": 0
-                    },
-                    "then_run": {
-                      "type": "minecraft:block",
-                      "result_state": {
-                        "Name": "fishpigeon:pigeon_dirt"
-                      }
-                    }
-                  },
-                  {
-                    "type": "minecraft:block",
-                    "result_state": {
-                      "Name": "fishpigeon:grass_pigeon_dirt",
-                      "Properties": {
-                        "snowy": "false"
-                      }
-                    }
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "fishpigeon:grass_pigeon_dirt",
+                  "Properties": {
+                    "snowy": "false"
                   }
-                ]
+                }
               }
             },
             {
