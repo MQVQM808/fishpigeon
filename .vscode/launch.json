@@ -1,0 +1,93 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - fishpigeon",
+        "order": 0
+      },
+      "projectName": "fishpigeon",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\Users\\icocoer\\Desktop\\Code\\fishpigeon\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\Users\\icocoer\\Desktop\\Code\\fishpigeon\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dfishpigeon%%D:\\Users\\icocoer\\Desktop\\Code\\fishpigeon\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Data",
+      "presentation": {
+        "group": "Mod Development - fishpigeon",
+        "order": 1
+      },
+      "projectName": "fishpigeon",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\Users\\icocoer\\Desktop\\Code\\fishpigeon\\build\\moddev\\dataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\Users\\icocoer\\Desktop\\Code\\fishpigeon\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dfishpigeon%%D:\\Users\\icocoer\\Desktop\\Code\\fishpigeon\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - fishpigeon",
+        "order": 2
+      },
+      "projectName": "fishpigeon",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\Users\\icocoer\\Desktop\\Code\\fishpigeon\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\Users\\icocoer\\Desktop\\Code\\fishpigeon\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dfishpigeon%%D:\\Users\\icocoer\\Desktop\\Code\\fishpigeon\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - fishpigeon",
+        "order": 3
+      },
+      "projectName": "fishpigeon",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\Users\\icocoer\\Desktop\\Code\\fishpigeon\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\Users\\icocoer\\Desktop\\Code\\fishpigeon\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dfishpigeon%%D:\\Users\\icocoer\\Desktop\\Code\\fishpigeon\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}

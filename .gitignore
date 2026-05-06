@@ -1,1 +1,43 @@
-.idea
+# -----------------------------
+# Build / Gradle outputs
+# -----------------------------
+.gradle/
+build/
+out/
+
+# -----------------------------
+# Runtime working directory
+# -----------------------------
+run/
+
+# -----------------------------
+# Java / JVM artifacts
+# -----------------------------
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# -----------------------------
+# IntelliJ IDEA
+# Keep shared inspection profile committed
+# -----------------------------
+.idea/*
+!.idea/inspectionProfiles/
+!.idea/inspectionProfiles/**
+
+*.iml
+
+# -----------------------------
+# VS Code
+# Keep shared workspace settings/launch config committed
+# -----------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+
+# -----------------------------
+# OS generated files
+# -----------------------------
+.DS_Store
+Thumbs.db

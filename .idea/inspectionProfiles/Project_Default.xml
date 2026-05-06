@@ -1,0 +1,9 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+
+    <!-- Disable nullability/dataflow inspections that produce noisy false positives in NeoForge APIs -->
+    <inspection_tool class="DataFlowIssue" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="ConstantConditions" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>

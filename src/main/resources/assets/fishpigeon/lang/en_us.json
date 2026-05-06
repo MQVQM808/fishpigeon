@@ -1,0 +1,8 @@
+{
+  "itemGroup.fishpigeon.main": "fishpigeon",
+  "block.fishpigeon.example_block": "Example Block",
+  "item.fishpigeon.minced_pigeon_fish_maw_soup": "Minced Pigeon & Fish Maw Soup",
+
+  "entity.fishpigeon.pigeon": "Pigeon",
+  "item.fishpigeon.pigeon_spawn_egg": "Pigeon Spawn Egg"
+}
